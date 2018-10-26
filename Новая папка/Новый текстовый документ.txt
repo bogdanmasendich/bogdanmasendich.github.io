@@ -1,0 +1,104 @@
+ </head>
+  <body>
+    <header id="main">
+      <div class="container">
+        <div class="row main-head">
+          <div class="col-lg-6 main-logo">
+            <div class="main-logo-border">
+              <p><span class="color-logo">S</span>mart</p>
+            </div>
+          </div>
+          <div class="col-lg-6 main-nav">
+            <a class="main-nav-bar" href="#">
+              <span class="line"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+</body>
+</html>
+
+
+
+
+
+
+.main-head{
+    margin-top: 3%;
+}
+.main-logo-border{
+    width: 155px;
+    height: 55px;
+    border: 3px solid #706b73;
+    text-align: center;
+    line-height: 49px;
+}
+.main-logo-border p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    color: #706b73;
+
+}
+.color-logo {
+    color: #fa9a87;
+}
+.main-nav-bar {
+    position: relative;
+    float: right;
+    margin-top:30px;
+    width: 30px;
+}
+
+
+.line{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    display: block;
+    width: 30px;
+    height: 4px;
+    background-color: #706b73;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-2px);
+    -ms-transform: translateY(-2px);
+    -o-transform: translateY(-2px);
+    transform: translateY(-2px);
+translate: 
+}
+.line::before {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-8px);
+    -ms-transform: translateY(-8px);
+    -o-transform: translateY(-8px);
+    transform: translateY(-8px);
+    content: '';
+    width: 30px;
+    height: 4px;
+    background-color:#706b73;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.line::after{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(4px);
+    -ms-transform: translateY(4px);
+    -o-transform: translateY(4px);
+    transform: translateY(4px);
+    content: '';
+    width: 30px;
+    height: 4px;
+    background-color:#706b73;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+}
